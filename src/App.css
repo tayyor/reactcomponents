@@ -1,0 +1,38 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+} */
+
+body {
+  background-image: url(./brick.jpeg);
+}
+
+.App {
+  background: #ebebeb;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 14rem 30rem;
+  align-items: center;
+  width: 25rem;
+  height: 10rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name-container{
+  margin:0 8rem;
+  padding-left: 1.5rem;
+}
+
+.foto-container{
+  display:grid;
+  justify-items: center;
+}
+
+.address-conatainer{
+  padding-left: 6rem;
+  margin-bottom: 50rem;
+}
+  
